@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+        
+}
+.main_box{
+background: url(camera.jpg);
+height: 100vh;
+}
+.btn_one {
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+   
+position: absolute;
+}
+.sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(73, 142, 78);
+    box-shadow: 2px 2px 10px rgb(187, 187, 84);
+   
+}
+.sidebar_menu .logo label{ 
+color:white;
+position: absolute;
+
+font-size: 25px;
+
+}
+.sidebar_menu .menu{
+    color: black;
+    position: absolute;
+width: 100%;
+top: 50px;
+font-size: 30px;
+}
+.sidebar_menu .menu ul li{
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+.sidebar_menu .menu i,a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar_menu .menu i {
+padding: 6px;
+}
+.sidebar_menu .social_media {
+    color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+    opacity: 0.6;
+   
+   
+}
+.sidebar_menu .social_media a {
+    padding: 5px;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 2px 2px 10px rgb(187, 187, 84); 
+}
+.main_box .btn_one:hover{
+    font-size: 40px;
+
+}
+.sidebar_menu .social_media i:hover {
+opacity: 1;
+transform: scale(1.5);
+color: blue;
+
+}
